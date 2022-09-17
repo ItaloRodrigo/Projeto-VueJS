@@ -1,9 +1,12 @@
-<script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
+<script>
+
+export default {
+    
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <base-layout>
+    teste de base layout
+  </base-layout>
 </template>
