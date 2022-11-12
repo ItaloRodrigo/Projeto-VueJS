@@ -1,0 +1,9 @@
+services:
+  vuejs:
+    build: vuejs
+    container_name: vuejs
+    ports:
+    - 3000:3000
+    volumes:
+    - .:/project
+    - /project/node_modules
